@@ -7,3 +7,4 @@ Flask-Bcrypt
 Flask-Talisman
 Flask-Limiter
 flask-cors
+pymysql
