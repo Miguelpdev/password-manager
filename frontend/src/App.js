@@ -12,6 +12,7 @@ import Register from "./components/Register.js";
 import Login from "./components/Login.js";
 import AddPassword from "./components/AddPassword.js";
 import YourPasswords from "./components/YourPassword.js";
+import PasswordTable from "./components/PasswordTable.js";
 
 function App() {
   const [token, setToken] = useState("");
@@ -70,6 +71,7 @@ function App() {
         <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
           <Routes>
             <Route exact path="/" element={<Register />} />
+            <Route path="/table" element={<PasswordTable />} />
             <Route
               path="/login"
               element={
